@@ -1,0 +1,93 @@
+.form {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form > label {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 20px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-size: 14px;
+}
+
+input[type='number'] {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 8px;
+  border: 1px solid #808080;
+  outline: none;
+  font-size: 16px;
+}
+
+input[type='number']:hover {
+  border-color: #000;
+}
+
+input[type='number']:focus {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 12px 0;
+}
+
+fieldset > legend {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-weight: 600;
+}
+
+fieldset:hover {
+  border-color: #000;
+}
+
+label > input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #2e2f42;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+.form > button {
+  width: 100%;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form > button:hover {
+  background: #6c8cff;
+}
